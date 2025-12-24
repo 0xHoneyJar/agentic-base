@@ -10,7 +10,7 @@ This framework uses specialized AI agents working together in a structured workf
 
 ### Prerequisites
 
-- [Claude Code](https://claude.ai/code) installed
+- [Claude Code](https://claude.ai/code) OR [Goose](https://github.com/block/goose) (for Gemini) installed
 - Git configured
 
 ### Setup
@@ -34,12 +34,26 @@ This framework uses specialized AI agents working together in a structured workf
    # docs/deployment/
    ```
 
-3. **Start Claude Code**
+3. **Select your AI Model / Provider** (Optional)
+   By default, agents use `sonnet`. To switch to Gemini or customize models:
    ```bash
-   claude-code
+   # Switch all agents to Gemini
+   ./scripts/update-models.sh gemini
+   
+   # Or switch back to Claude
+   ./scripts/update-models.sh claude
    ```
 
-4. **Begin the workflow**
+4. **Start your Agent**
+   ```bash
+   # If using Claude Code
+   claude-code
+   
+   # If using Goose/Gemini
+   goose session
+   ```
+
+5. **Begin the workflow**
    ```bash
    /plan-and-analyze
    ```
@@ -174,10 +188,13 @@ See **[DEPLOYMENT_RUNBOOK.md](devrel-integration/docs/DEPLOYMENT_RUNBOOK.md)** f
 ## Repository Structure
 
 ```
-.claude/
+.agents/
 ├── agents/              # Agent definitions
 ├── commands/           # Slash command definitions
 └── settings.local.json # MCP server configuration
+
+.claude/ -> .agents/    # Symlink for Claude Code
+.gemini/ -> .agents/    # Symlink for Gemini/Goose
 
 docs/
 ├── prd.md              # Product Requirements Document
@@ -190,15 +207,14 @@ docs/
 └── deployment/         # Production infrastructure docs
 
 PROCESS.md              # Core workflow guide
-CLAUDE.md               # Context for Claude Code
+AGENTS.md               # Context for AI Agents (formerly CLAUDE.md)
 README.md               # This file
-
+```
 devrel-integration/
 ├── docs/
 │   ├── DEPLOYMENT_RUNBOOK.md    # Production deployment guide (canonical)
 │   └── CREDENTIALS_SETUP_GUIDE.md  # Prerequisites setup guide
 └── src/                          # Discord bot implementation
-```
 
 ## Example Workflow
 
@@ -275,6 +291,21 @@ See [PROCESS.md](PROCESS.md) for detailed multi-developer guidance.
 - **Production-ready** infrastructure from day one
 - **Documentation** generated throughout the process
 - **Iterative refinement** builds confidence in quality
+
+## Bootstrapping New Projects
+
+If you want to use this framework for an **existing project** or start a new one without forking this entire repository, use the bootstrap script:
+
+```bash
+# Clone this base repo somewhere
+git clone https://github.com/0xHoneyJar/agentic-base.git
+cd agentic-base
+
+# Run the bootstrap script for your target project directory
+./scripts/bootstrap-project.sh /path/to/your-new-project
+```
+
+This will copy the agent configurations (`.agents/`), core guides (`AGENTS.md`, `PROCESS.md`), and convenience scripts to your target directory.
 
 ## Contributing
 
