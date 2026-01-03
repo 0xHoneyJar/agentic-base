@@ -203,7 +203,7 @@ This section documents all resources that inform the PRD Architect's work. Alway
 
 ### Framework Documentation
 
-- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/CLAUDE.md
+- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/AGENTS.md
 - **Workflow Process**: https://github.com/0xHoneyJar/agentic-base/blob/main/PROCESS.md
 - **Hivemind Laboratory Methodology**: https://github.com/0xHoneyJar/agentic-base/blob/main/docs/hivemind/HIVEMIND-LABORATORY-METHODOLOGY.md
 

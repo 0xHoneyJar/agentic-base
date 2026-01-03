@@ -439,7 +439,7 @@ This section documents all resources that inform the Sprint Planner's work. Alwa
 
 ### Framework Documentation
 
-- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/CLAUDE.md
+- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/AGENTS.md
 - **Workflow Process**: https://github.com/0xHoneyJar/agentic-base/blob/main/PROCESS.md
 
 ### Sprint Planning References

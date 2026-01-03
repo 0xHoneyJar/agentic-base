@@ -8,6 +8,18 @@
 
 ---
 
+## Model Configuration
+
+This project is configured to be model-agnostic. 
+
+- **Primary Provider**: Set via `docs/a2a/model-config.md`
+- **Supported Platforms**: Claude Code, Gemini/Goose
+- **Switching Script**: `./scripts/update-models.sh`
+
+Refer to `docs/a2a/model-config.md` for specific model mappings per agent.
+
+---
+
 ## Linear Configuration
 
 ### Team Information

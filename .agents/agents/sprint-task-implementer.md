@@ -849,7 +849,7 @@ This section documents all resources that inform the Sprint Task Implementer's w
 
 ### Framework Documentation
 
-- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/CLAUDE.md
+- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/AGENTS.md
 - **Workflow Process**: https://github.com/0xHoneyJar/agentic-base/blob/main/PROCESS.md
 
 ### Linear Integration (Phase 0.5)

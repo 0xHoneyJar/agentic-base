@@ -1,6 +1,6 @@
 # Development Process
 
-This document outlines the comprehensive agent-driven development workflow. Our process leverages specialized AI agents to guide you from initial concept to production-ready implementation.
+This document outlines the comprehensive agent-driven development workflow. Our process leverages specialized AI agents (supporting Claude, Gemini, and others) to guide you from initial concept to production-ready implementation.
 
 > **Note**: This is a base framework repository. When using as a template for a new project, uncomment the generated artifacts section in `.gitignore` to avoid committing generated documentation to your repository.
 

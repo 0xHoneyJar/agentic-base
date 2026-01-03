@@ -1,0 +1,23 @@
+# Cursor Rules for Agentic Base
+
+This file provides guidance to Cursor AI when working with this repository.
+
+## Development Workflow
+
+This project follows a strict agent-driven development process. Always refer to the following documents before suggesting changes or implementing code:
+
+- **[AGENTS.md](./AGENTS.md)**: Rules and guidance for AI agents (formerly CLAUDE.md).
+- **[PROCESS.md](./PROCESS.md)**: The comprehensive 7-phase development lifecycle.
+- **[docs/a2a/model-config.md](./docs/a2a/model-config.md)**: Current model selection and configuration.
+
+## Key Principles
+
+1. **Follow the Workflow**: Do not skip phases (PRD -> SDD -> Sprint -> Implementation -> Review -> Audit -> Deploy).
+2. **Document Everything**: Use the `docs/` and `docs/a2a/` directories as the source of truth for planning and feedback.
+3. **Model Selection**: If you need to switch model profiles, use the helper script: `./scripts/update-models.sh`.
+4. **Context Maintenance**: Keep the context chain for other agents by updating `reviewer.md` and addressing `engineer-feedback.md`.
+
+## Integration
+
+- When providing code suggestions, check the latest sprint task in `docs/sprint.md`.
+- Ensure all new features have corresponding unit tests as per `AGENTS.md` requirements.

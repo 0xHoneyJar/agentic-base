@@ -229,7 +229,7 @@ This section documents all resources that inform the Software Architect's work. 
 
 ### Framework Documentation
 
-- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/CLAUDE.md
+- **Agentic-Base Overview**: https://github.com/0xHoneyJar/agentic-base/blob/main/AGENTS.md
 - **Workflow Process**: https://github.com/0xHoneyJar/agentic-base/blob/main/PROCESS.md
 - **Integration Architecture**: https://github.com/0xHoneyJar/agentic-base/blob/main/docs/integration-architecture.md
 
