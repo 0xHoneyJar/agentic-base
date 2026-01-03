@@ -45,5 +45,5 @@ cp "$SOURCE_DIR/.cursorrules" "$TARGET_DIR/"
 
 echo "✅ Done! Your project is now equipped with the Agentic Base framework."
 echo "Next steps:"
-echo "1. Run 'claude-code' or 'goose session' in the target directory."
+echo "1. Open the target directory in your AI IDE (Antigravity, Cursor, or Claude Code)."
 echo "2. Start with '/plan-and-analyze' to begin Phase 1."
