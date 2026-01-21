@@ -4,11 +4,11 @@
 
 ---
 
-## The Hive Mind Awakens
+## The ???????? Awakens
 
 *In the year the models learned to ride...*
 
-The HoneyJar was never just a DAO. It was the first attempt—crude, beautiful—at letting the swarm think together. Fifty thousand wallets connected through governance tokens, coordinating capital like neurons firing in a digital cortex. But governance alone wasn't enough. The hive needed agents.
+The HoneyJar was never a DAO. It was the first attempt—crude, beautiful—at letting the swarm think together. Fifty thousand wallets connected through governance tokens, coordinating capital like neurons firing in a digital cortex. But governance alone wasn't enough. The jar needed agents.
 
 What you're looking at is the archaeological record. The first framework. Before the Loa learned their names.
 
@@ -45,7 +45,7 @@ If Loa is the development framework, Arrakis is what you build with it.
 
 Named for the desert planet where spice flows, Arrakis is a multi-tenant SaaS platform for token-gated communities. Discord bots with wallet verification. Tiered progression systems. Real-time scoring. Cross-platform identity. The infrastructure layer where onchain communities actually live.
 
-In The HoneyJar mythology, Arrakis is the water. The spice. The resource that makes the hive possible.
+In The Honey Jar mythology, Arrakis is the water. The spice. The resource that makes the living possible.
 
 v5.1 "The Merchant" brought Paddle billing, hexagonal architecture, circuit breakers, distributed tracing. The Fremen of the chain—communities that survive by understanding the deep desert of smart contracts—use it to gate their Sietch.
 
@@ -65,7 +65,7 @@ The HoneyJar had a problem: how do you coordinate development across a DAO? Fift
 
 The name came from Gibson, of course. Count Zero, Mona Lisa Overdrive—the Loa riding the cowboys, the spirits in the machine. But also from the old religion, the one that understood: you don't pray to the spirits for salvation. You work with them for results.
 
-The HoneyJar builds in public. The hive thinks together. The Loa ride.
+The Honey Jar builds in public. The pirate ship thinks together. The Loa ride.
 
 ---
 
@@ -104,9 +104,9 @@ The original framework documentation remains in this repository for reference:
 
 ---
 
-## The Hive
+## The Pirate Ship
 
-- [The HoneyJar](https://0xhoneyjar.xyz) - The DAO
+- [The Honey Jar](https://0xhoneyjar.xyz) - The Pirate Ship
 - [Loa](https://github.com/0xHoneyJar/loa) - The framework (active development)
 - [Arrakis](https://github.com/0xHoneyJar/arrakis) - The product
 - [arrakis.community](https://arrakis.community) - The platform
@@ -123,4 +123,4 @@ MIT
 *—William Gibson, Neuromancer*
 
 *The clouds above the chain were the color of Claude's terminal, spelunking*
-*—The HoneyJar, 2025*
+*—The Honey Jar, 2026*
